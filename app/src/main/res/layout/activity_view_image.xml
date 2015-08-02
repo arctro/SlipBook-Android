@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/base_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context="com.imageourworld.imageourworld.ViewImage"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/edit_image"
+        android:src="@drawable/accept"
+        android:scaleType="fitCenter" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        menu_fab_size="normal"
+        menu_showShadow="true"
+        menu_shadowColor="#66000000"
+        menu_shadowRadius="4dp"
+        menu_shadowXOffset="1dp"
+        menu_shadowYOffset="3dp"
+        menu_colorNormal="#DA4336"
+        menu_colorPressed="#E75043"
+        menu_colorRipple="#99FFFFFF"
+        menu_animationDelayPerItem="50"
+        menu_icon="@drawable/fab_add"
+        menu_buttonSpacing="0dp"
+        menu_labels_margin="0dp"
+        menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+        menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+        menu_labels_paddingTop="4dp"
+        menu_labels_paddingRight="8dp"
+        menu_labels_paddingBottom="4dp"
+        menu_labels_paddingLeft="8dp"
+        menu_labels_padding="8dp"
+        menu_labels_textColor="@color/textcolor"
+        menu_labels_textSize="14sp"
+        menu_labels_cornerRadius="3dp"
+        menu_labels_colorNormal="#333333"
+        menu_labels_colorPressed="#444444"
+        menu_labels_colorRipple="#66FFFFFF"
+        menu_labels_showShadow="true"
+        menu_labels_singleLine="false"
+        menu_labels_ellipsize="none"
+        menu_labels_maxLines="-1"
+        menu_labels_position="left"
+        menu_openDirection="up"
+        menu_backgroundColor="@android:color/transparent">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/edit"
+            android:tint="@color/miniButtonIcon"
+            fab_size="mini"
+            fab_label="Edit Image" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/menu_item_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/delete"
+            android:tint="@color/miniButtonIcon"
+            fab_size="mini"
+            fab_label="Delete Image" />
+
+    </com.github.clans.fab.FloatingActionMenu>
+</RelativeLayout>

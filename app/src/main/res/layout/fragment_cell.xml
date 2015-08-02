@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offwhite">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:elevation="2dp"
+        android:id="@+id/cell_frame"
+        android:background="@drawable/rounded_corner"
+        android:outlineProvider="bounds"
+        android:layout_margin="2.5dp">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/cell_background_image"
+            android:scaleType="centerCrop"
+            android:layout_margin="1dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:tint="@color/white"
+            android:background="@drawable/oval_green"
+            android:src="@drawable/accept"
+            android:elevation="1dp"
+            android:stateListAnimator="@anim/button_elevation"
+            android:visibility="gone"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:alpha="1"
+            android:elevation="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_toRightOf="@+id/cell_background_image"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Untitled"
+                android:textColor="@color/textcolor"
+                android:id="@+id/cell_text"
+                android:layout_gravity="center_vertical|left"
+                android:textIsSelectable="false"
+                android:textSize="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="16dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

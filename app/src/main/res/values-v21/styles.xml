@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Material.Light">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:colorPrimary">@color/scheme3</item>
+        <item name="android:colorPrimaryDark">@color/scheme4</item>
+        <item name="android:colorAccent">@color/scheme2</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/drawer_list_selector</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.Light.SearchView">
+        <item name="android:colorPrimary">#BDBDBD</item>
+        <item name="android:colorPrimaryDark">#6E6E6E</item>
+        <item name="android:textColorPrimary">#424242</item>
+    </style>
+</resources>

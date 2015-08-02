@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/edit_ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clipToPadding="false">
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/save_botton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save"
+        fab_size="mini"
+        fab_label="Menu item 1"
+        android:elevation="6dp"
+        android:layout_alignBottom="@+id/scrollView"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:elevation="0dp"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="55dp"
+                android:background="@color/subwhite"
+                android:elevation="2dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Saved Receipt"
+                    android:id="@+id/textView"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:textColor="@color/textcolor"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="Unsynced"
+                    android:id="@+id/textView2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/textView"
+                    android:layout_marginBottom="5dp" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageButton"
+                    android:background="@color/subwhite"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="16dp"
+                    android:src="@drawable/sync"
+                    android:tint="@color/searchPrimaryDark" />
+            </RelativeLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit_name"
+                android:layout_gravity="center_horizontal"
+                android:hint="Title"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/edittext"
+                android:textColor="@color/textcolor"
+                android:padding="5dp" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView2"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/category_new"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/textcolor"
+                    android:minHeight="40dp"
+                    android:id="@+id/linearLayout2" >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edit_category"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="Category"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/textcolor"
+                        android:background="@drawable/edittext"
+                        android:padding="5dp" />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/imageView"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:src="@drawable/money_new"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginLeft="10dp" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginLeft="15dp"
+                    android:minHeight="40dp"
+                    android:id="@+id/linearLayout" >
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/edit_total"
+                        android:layout_gravity="center_horizontal"
+                        android:hint="Total"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/textcolor"
+                        android:background="@drawable/edittext"
+                        android:padding="5dp"
+                        android:inputType="numberDecimal" />
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@android:color/darker_gray"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

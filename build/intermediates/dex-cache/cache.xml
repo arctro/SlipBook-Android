@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/httpcore-4.3.3-7d9f05e5ca445c21ac6795e2a4d47a0a6e9a0b93.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/libs/httpcore-4.3.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f91b7a4aadc5cf486df6e4634748d7dd7a73f06d"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/httpmime-4.3.6-5addde11c4f93ebf62e108f8084faca450163ed7.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/libs/httpmime-4.3.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66a39a5e37d5da40fdad6176fc24ef4316e74702"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-87454a8461ffe003b0078860674327270544ec3c.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-e81f7fabd5d57b50e80a20cb5c2f761fb3809df9.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-5aec7cb07ac9cd3a5af9d6133998a9837a696a13.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-4d0e87aca63175532f635719817a244b128585b9.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.2.42/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e5f81129dfb3d02df80126512bc98278ed2bb40a"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-fbf6243bcda15db7f2eac1c4d23e0588af290a20.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-31412bb614048399c2d66ca7019a3db8203e5943.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-63fb4b8f2fcba8bd08e21bfe71d800525b85b4c5.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504"/>
+    <item
+        dex="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/pre-dexed/debug/classes-16a3e09146858b1703851bf1b3326920721f024d.jar"
+        jar="/Users/BenM/AndroidStudioProjects/SlipBook/app/build/intermediates/exploded-aar/com.github.clans/fab/1.5.5/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="aaa2fcc429aaad555dbb17ac914b846ca234a3a5"/>
+
+</pre-dex-items>

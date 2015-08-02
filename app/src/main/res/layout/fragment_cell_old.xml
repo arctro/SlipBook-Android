@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:elevation="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/cell_frame"
+        android:background="@drawable/rounded_corner"
+        android:outlineProvider="bounds">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="200dp"
+            android:id="@+id/cell_background_image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iow" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="5dp"
+            android:tint="@color/white"
+            android:background="@drawable/oval_green"
+            android:src="@drawable/accept"
+            android:elevation="1dp"
+            android:stateListAnimator="@anim/button_elevation"
+            android:layout_marginTop="5dp" />
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:alpha="1"
+            android:elevation="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Untitled"
+                android:textColor="#FFFFFF"
+                android:id="@+id/cell_text"
+                android:layout_gravity="center_vertical|left"
+                android:textIsSelectable="false"
+                android:textSize="25dp"
+                android:layout_marginLeft="10dp" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        applicationId "com.arctro.slipbook"
+        minSdkVersion 21
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile files('libs/httpcore-4.3.3.jar')
+    compile files('libs/httpmime-4.3.6.jar')
+    // You must install or update the Support Repository through the SDK manager to use this dependency.
+    compile 'com.android.support:support-v4:21.+'
+    compile 'com.google.android.gms:play-services:4.2.42'
+    compile 'com.android.support:appcompat-v7:21.+'
+    compile 'com.android.support:recyclerview-v7:+'
+    compile 'com.android.support:cardview-v7:21.0.+'
+    compile 'com.github.clans:fab:1.5.5'
+}

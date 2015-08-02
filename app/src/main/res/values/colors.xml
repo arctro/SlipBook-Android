@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#ff3d3d</color>
+    <color name="green">#3dff46</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="offwhite">#F2F2F2</color>
+    <color name="subwhite">#DEDEDE</color>
+    <color name="textcolor">#1C1C1C</color>
+    <color name="scheme1">#8EC5FE</color>
+    <color name="scheme2">#62AFFF</color>
+    <color name="scheme3">#399AFF</color>
+    <color name="scheme4">#1186FF</color>
+    <color name="scheme5">#017CFB</color>
+    <color name="grey">#A4A4A4</color>
+    <color name="accentColorRed">#FF5252</color>
+    <color name="accentColorGreen">#4CAF50</color>
+    <color name="searchPrimary">#BDBDBD</color>
+    <color name="searchPrimaryDark">#6E6E6E</color>
+    <color name="searchPrimaryText">#424242</color>
+
+    <color name="miniButton">#BDBDBD</color>
+    <color name="miniButtonIcon">#FFFFFF</color>
+    <color name="menuButton">#399AFF</color>
+</resources>
